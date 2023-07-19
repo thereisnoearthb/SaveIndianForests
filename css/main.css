@@ -90,9 +90,8 @@
   color: white;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 390px) {
   .carousel {
-    height: ;
     min-height: 300px !important;
     max-height: 440px !important;
   }
