@@ -1,6 +1,12 @@
 // Data for each person with multiple phone numbers
 const peopleData = [
   {
+    name: "Birendra Prasad Baishya",
+    constituency: "",
+    party: "Asom Gana Parishad",
+    phoneNumbers: ["919868181789", "919435047823"]
+  },
+  {
     name: "Ajit Kumar",
     constituency: "",
     party: "Independent",
@@ -82,7 +88,7 @@ const peopleData = [
     name: "Sant Balbir Singh",
     constituency: "",
     party: "AAP",
-    phoneNumbers: ["919013181663", "919417319463", "910182829936", "9101821294263"]
+    phoneNumbers: ["919013181663", "919417319463", "919182829936", "9191821294263"]
   },
   {
     name: "N Chandrasegharan",
@@ -100,7 +106,7 @@ const peopleData = [
     name: "N. R. Elango",
     constituency: "",
     party: "DMK",
-    phoneNumbers: ["919013181090", "919499933998", "914426153306"]
+    phoneNumbers: ["919013181090", "919499933998", "9194426153306"]
   },
   {
     name: "S Kalyanasundaram",
@@ -178,7 +184,7 @@ const peopleData = [
     name: "Abir Ranjan Biswas",
     constituency: "",
     party: "AITC",
-    phoneNumbers: ["919332274419", "919883293922", "9123311213"]
+    phoneNumbers: ["919332274419", "919883293922", "919123311213"]
   },
   {
     name: "Subhashish Chakraborty",
@@ -215,8 +221,63 @@ const peopleData = [
     constituency: "",
     party: "AITC",
     phoneNumbers: ["919433155577", "919830361241"]
+  },
+  {
+    name: "K.G. Kenye",
+    constituency: "",
+    party: "Naga People's Front",
+    phoneNumbers: ["919013181355"]
+  },
+  {
+    name: "Dr. Wanwieroy Kharlukhi",
+    constituency: "",
+    party: "National Peoples Party",
+    phoneNumbers: ["919485122202"]
+  },
+  {
+    name: "Abdul Wahab",
+    constituency: "",
+    party: "Indian Union Muslim League",
+    phoneNumbers: ["919013181677", "919868181280", "919847020911"]
+  },
+  {
+    name: "Elamaram Kareem",
+    constituency: "",
+    party: "Communist Party of India(Marxist)",
+    phoneNumbers: ["919868181068", "919400307786"]
+  },
+  {
+    name: "Jose. K Mani",
+    constituency: "",
+    party: "Kerala Congress(M)",
+    phoneNumbers: ["919013180301", "919447067772"]
+  },
+  {
+    name: "Vayalar Ravi",
+    constituency: "",
+    party: "Indian National Congress",
+    phoneNumbers: ["919868181711", "919910047474"]
+  },
+  {
+    name: "Dr L. Hanumanthaiah",
+    constituency: "",
+    party: "Indian National Congress",
+    phoneNumbers: ["919654087483"]
+  },
+  {
+    name: "Jairam Ramesh",
+    constituency: "",
+    party: "Indian National Party",
+    phoneNumbers: ["919868181402", "919868181302", "919013181222"]
+  },
+  {
+    name: "K.T.S. Tulsi",
+    constituency: "",
+    party: "Indian National Congress",
+    phoneNumbers: ["919999609157"]
   }
 ];
+
 // Function to generate WhatsApp message
 function generateMessage(name, constituency, party, phoneNumber) {
   var message = `Hi ${name},
