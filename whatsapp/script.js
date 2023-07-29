@@ -4,13 +4,13 @@ const peopleData = [
     name: "Birendra Prasad Baishya",
     constituency: "",
     party: "Asom Gana Parishad",
-    phoneNumbers: ["919868181789", "919435047823"]
+    phoneNumbers: ["919868181789"]
   },
   {
     name: "Ajit Kumar",
     constituency: "",
     party: "Independent",
-    phoneNumbers: ["919868181044", "919868181223"]
+    phoneNumbers: ["919868181223"]
   },
   {
     name: "Rwngwra Narzary",
@@ -28,7 +28,7 @@ const peopleData = [
     name: "Prem Chand Gupta",
     constituency: "",
     party: "RJD",
-    phoneNumbers: ["919013181666", "919013181209"]
+    phoneNumbers: ["919013181666"]
   },
   {
     name: "Harivansh",
@@ -37,65 +37,38 @@ const peopleData = [
     phoneNumbers: ["919013181002", "919013181002"]
   },
   {
-    name: "Digvijay Singh",
-    constituency: "",
-    party: "INC",
-    phoneNumbers: ["919013181725", "919013181725"]
-  },
-  {
-    name: "Vivek Tankha",
-    constituency: "",
-    party: "INC",
-    phoneNumbers: ["919868249933", "919868249933"]
-  },
-  {
     name: "Rajmani Patel",
     constituency: "",
     party: "INC",
     phoneNumbers: ["919868181022", "919868181022"]
   },
-  {
-    name: "Ramdas Athwale",
-    constituency: "",
-    party: "RPI",
-    phoneNumbers: ["919004809627", "91996920011"]
-  },
+  
   {
     name: "Rajani Ashokrao",
     constituency: "",
     party: "INC",
-    phoneNumbers: ["919422242222", "919013181313"]
+    phoneNumbers: ["919422242222"]
   },
-  {
-    name: "Sanjay Raut",
-    constituency: "",
-    party: "Shiv Sena",
-    phoneNumbers: ["919868181089", "919868181089"]
-  },
+
   {
     name: "Mukul Balkrishna",
     constituency: "",
     party: "INC",
-    phoneNumbers: ["919013180257", "919811658584"]
+    phoneNumbers: ["919811658584"]
   },
   {
     name: "Sushil Kumar",
     constituency: "",
     party: "AAP",
-    phoneNumbers: ["919013181561", "919013181562", "919431017530"]
+    phoneNumbers: ["919431017530"]
   },
   {
     name: "Sant Balbir Singh",
     constituency: "",
     party: "AAP",
-    phoneNumbers: ["919013181663", "919417319463", "919182829936", "9191821294263"]
+    phoneNumbers: ["919013181663", "919417319463"]
   },
-  {
-    name: "N Chandrasegharan",
-    constituency: "",
-    party: "AIADMK",
-    phoneNumbers: ["919868181199", "919488361699"]
-  },
+ 
   {
     name: "R Dharmar",
     constituency: "",
@@ -106,7 +79,7 @@ const peopleData = [
     name: "N. R. Elango",
     constituency: "",
     party: "DMK",
-    phoneNumbers: ["919013181090", "919499933998", "9194426153306"]
+    phoneNumbers: ["919499933998"]
   },
   {
     name: "S Kalyanasundaram",
@@ -126,12 +99,7 @@ const peopleData = [
     party: "DMK",
     phoneNumbers: ["919442641618", "919442641618"]
   },
-  {
-    name: "Anthiyur P Selvarasu",
-    constituency: "",
-    party: "DMK",
-    phoneNumbers: ["919013181866", "919013181866"]
-  },
+ 
   {
     name: "C.V. Shanmugam",
     constituency: "",
@@ -142,7 +110,7 @@ const peopleData = [
     name: "M Shanmugham",
     constituency: "",
     party: "DMK",
-    phoneNumbers: ["919444042472", "919821010395"]
+    phoneNumbers: ["919821010395"]
   },
   {
     name: "Tiruchi Siva",
@@ -156,18 +124,8 @@ const peopleData = [
     party: "MDMK",
     phoneNumbers: ["919842161241", "919842161241"]
   },
-  {
-    name: "P Wilson",
-    constituency: "",
-    party: "DMK",
-    phoneNumbers: ["919868181800", "919868181800"]
-  },
-  {
-    name: "Subrata Bakshi",
-    constituency: "",
-    party: "AITC",
-    phoneNumbers: ["919830040970", "919830040970"]
-  },
+ 
+
   {
     name: "P. Bhattacharya",
     constituency: "",
@@ -184,13 +142,13 @@ const peopleData = [
     name: "Abir Ranjan Biswas",
     constituency: "",
     party: "AITC",
-    phoneNumbers: ["919332274419", "919883293922", "919123311213"]
+    phoneNumbers: ["919332274419", "919883293922"]
   },
   {
     name: "Subhashish Chakraborty",
     constituency: "",
     party: "AITC",
-    phoneNumbers: ["919831159772", "919868181191"]
+    phoneNumbers: ["919831159772"]
   },
   {
     name: "Shanta Chhetri",
@@ -198,12 +156,7 @@ const peopleData = [
     party: "AITC",
     phoneNumbers: ["919434003141", "9197432036898"]
   },
-  {
-    name: "Sushmita Dev",
-    constituency: "",
-    party: "AITC",
-    phoneNumbers: ["919868181273"]
-  },
+ 
   {
     name: "Jawhar Sircar",
     constituency: "",
@@ -222,12 +175,7 @@ const peopleData = [
     party: "AITC",
     phoneNumbers: ["919433155577", "919830361241"]
   },
-  {
-    name: "K.G. Kenye",
-    constituency: "",
-    party: "Naga People's Front",
-    phoneNumbers: ["919013181355"]
-  },
+ 
   {
     name: "Dr. Wanwieroy Kharlukhi",
     constituency: "",
@@ -250,13 +198,13 @@ const peopleData = [
     name: "Jose. K Mani",
     constituency: "",
     party: "Kerala Congress(M)",
-    phoneNumbers: ["919013180301", "919447067772"]
+    phoneNumbers: ["919447067772"]
   },
   {
     name: "Vayalar Ravi",
     constituency: "",
     party: "Indian National Congress",
-    phoneNumbers: ["919868181711", "919910047474"]
+    phoneNumbers: ["919910047474"]
   },
   {
     name: "Dr L. Hanumanthaiah",
@@ -268,7 +216,7 @@ const peopleData = [
     name: "Jairam Ramesh",
     constituency: "",
     party: "Indian National Party",
-    phoneNumbers: ["919868181402", "919868181302", "919013181222"]
+    phoneNumbers: ["919868181302", "919013181222"]
   },
   {
     name: "K.T.S. Tulsi",
