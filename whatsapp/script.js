@@ -215,7 +215,7 @@ const peopleData = [
   {
     name: "Jairam Ramesh",
     constituency: "",
-    party: "Indian National Party",
+    party: "Indian National Congress",
     phoneNumbers: ["919868181302", "919013181222"]
   },
   {
