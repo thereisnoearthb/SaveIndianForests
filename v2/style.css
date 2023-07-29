@@ -199,6 +199,51 @@ body {
   transform: rotate(19deg);
 }
 
+.card:nth-child(38) {
+  top: 38.5rem;
+  transform: rotate(19.5deg);
+}
+
+.card:nth-child(39) {
+  top: 39.5rem;
+  transform: rotate(20deg);
+}
+
+.card:nth-child(40) {
+  top: 40.5rem;
+  transform: rotate(20.5deg);
+}
+
+.card:nth-child(41) {
+  top: 41.5rem;
+  transform: rotate(21deg);
+}
+
+.card:nth-child(42) {
+  top: 42.5rem;
+  transform: rotate(21.5deg);
+}
+
+.card:nth-child(43) {
+  top: 43.5rem;
+  transform: rotate(22deg);
+}
+
+.card:nth-child(44) {
+  top: 44.5rem;
+  transform: rotate(22.5deg);
+}
+
+.card:nth-child(45) {
+  top: 45.5rem;
+  transform: rotate(23deg);
+}
+
+.card:nth-child(46) {
+  top: 46.5rem;
+  transform: rotate(23.5deg);
+}
+
 .whatsapp-icon {
   position: absolute;
   bottom: 25px;
