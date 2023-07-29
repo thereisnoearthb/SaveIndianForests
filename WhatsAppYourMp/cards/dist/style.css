@@ -120,12 +120,12 @@ body {
   right: 25px;
   background-color: #25D366;
   color: white;
-  width: 85px;
-  height: 85px;
+  width: max(5vh,5vw);
+  height: max(5vh,5vw);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  font-size: 44px;
+  font-size: max(3vh,3vw);
 }
