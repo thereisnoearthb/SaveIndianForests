@@ -3,6 +3,9 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin-inline: max(0px, ((100% - 50rem) / 2));
+  background-color: #DFD3B9;
+  color: #2E4989;
+
 }
 
 .card {
