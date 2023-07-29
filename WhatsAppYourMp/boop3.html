@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Save Indian Forests</title>
+
+  <!-- Add Materialize CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .card-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+  </style>
+</head>
+
+<body class="yellow">
+  <div class="container">
+    <!-- Title at the top -->
+    <div class="row">
+      <div class="col s12">
+        <h1 class="center-align" style="font-family: 'Playfair Display', sans-serif; font-weight: 900; font-size: 36px; color: #000;">SAVE INDIAN FORESTS</h1>
+      </div>
+    </div>
+
+    <!-- Cards with circular pictures and WhatsApp buttons -->
+    <div class="row">
+      <div class="col s12 m6 l4">
+        <div class="card horizontal">
+          <div class="card-image">
+            <img src="person1.jpg" alt="Person 1">
+          </div>
+          <div class="card-stacked">
+            <div class="card-content">
+              <p>Name: Birendra Prasad Baishya</p>
+              <p>Constituency: </p>
+              <p>Party: Asom Gana Parishad</p>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light green lighten-2 btn" onclick="generateMessage('Birendra Prasad Baishya', '', 'Asom Gana Parishad', '919868181789')">
+                <i class="fa fa-whatsapp left"></i>WhatsApp Birendra Prasad Baishya</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more cards for other people as needed -->
+
+    </div>
+  </div>
+
+  <!-- Add Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    function generateMessage(name, constituency, party, phoneNumber) {
+      // Your function code here
+    }
+  </script>
+</body>
+
+</html>

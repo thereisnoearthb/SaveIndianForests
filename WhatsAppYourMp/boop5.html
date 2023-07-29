@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Save Indian Forests</title>
+
+  <!-- Import Playfair Display font with bold weight -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap" rel="stylesheet">
+
+  <!-- Import Font Awesome version 6.4.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #DFD3B9;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', sans-serif;
+      font-weight: 900;
+      font-size: 36px;
+      color: #000;
+      text-align: center;
+      padding: 20px 0;
+      margin: 0;
+    }
+
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+      max-width: 400px;
+      background-color: #DFD3B9;
+      border-radius: 8px;
+      padding: 16px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .show-card {
+      opacity: 1;
+    }
+
+    .card-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+
+    .card-content {
+      color: #2E4989;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+    }
+
+    .whatsapp-btn {
+      background-color: #25D366;
+      color: #DFD3B9;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    .whatsapp-icon {
+      margin-right: 8px;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Heading -->
+  <h1>SAVE INDIAN FORESTS</h1>
+
+  <!-- Card interface -->
+  <div class="card-container" id="card">
+    <div style="display: flex; align-items: center;">
+      <div class="card-image">
+        <img src="person1.jpg" alt="Person 1">
+      </div>
+      <div class="card-content">
+        <p>Name: Birendra Prasad Baishya</p>
+        <p>Constituency: </p>
+        <p>Party: Asom Gana Parishad</p>
+      </div>
+    </div>
+    <button class="whatsapp-btn" onclick="generateMessage('Birendra Prasad Baishya', '', 'Asom Gana Parishad', '919868181789')">
+      <i class="fa-brands fa-whatsapp whatsapp-icon"></i>WhatsApp Birendra Prasad Baishya
+    </button>
+  </div>
+
+  <!-- Import Montserrat font -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Add Materialize JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    // Show the card with animation after loading
+    document.addEventListener('DOMContentLoaded', function () {
+      const card = document.getElementById('card');
+      card.classList.add('show-card');
+    });
+
+    function generateMessage(name, constituency, party, phoneNumber) {
+      // Your function code here
+    }
+  </script>
+</body>
+
+</html>

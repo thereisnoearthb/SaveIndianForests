@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Card Example</title>
+  <style>
+    body {
+      margin-inline: max(0px, ((100% - 260px) / 2));
+      font: 90%/1.4 system-ui;
+    }
+
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Center cards on the screen */
+    }
+
+    .card {
+      position: sticky;
+      background: white;
+      padding: 1.5rem;
+      box-shadow: 0 -0.5rem 1rem rgba(0 0 0 / 0.15);
+      border-radius: 4px;
+      margin: 10px;
+    }
+
+    /* Media Queries */
+    @media only screen and (max-width: 768px) {
+      .cards-container {
+        max-width: 90%; /* Adjust card container width for tablets */
+      }
+    }
+
+    @media only screen and (max-width: 480px) {
+      .cards-container {
+        max-width: 100%; /* Adjust card container width for mobile */
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="cards-container">
+    <!-- Card Loop -->
+    <!-- Note: The content inside the loop is just a placeholder, you can modify it as needed -->
+    <!-- Replace the h2 and p tags with your actual content -->
+    <!-- For the card position and rotation, use the CSS provided in the style tag -->
+  </div>
+
+  <script>
+    for (let i = 1; i <= 20; i++) {
+      const card = document.createElement("div");
+      card.classList.add("card");
+      card.style.position = "sticky";
+      card.style.top = `${i}rem`;
+      card.style.transform = `rotate(${i}deg)`;
+
+      const h2 = document.createElement("h2");
+      h2.textContent = "Card Title";
+
+      const p = document.createElement("p");
+      p.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque at nobis doloremque odit labore provident unde officiis odio sit sint? Vitae accusantium praesentium ullam alias aut quod cum perferendis maiores.";
+
+      card.appendChild(h2);
+      card.appendChild(p);
+      document.querySelector(".cards-container").appendChild(card);
+    }
+  </script>
+</body>
+
+</html>

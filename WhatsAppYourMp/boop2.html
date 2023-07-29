@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>WhatsApp Messages</title>
+</head>
+
+<body>
+  <script>
+    function generateMessage(name, constituency, party, phoneNumber) {
+      var message = `Hi ${name},
+We, the concerned citizens of India, are writing to express our serious apprehensions about the Forest (Conservation) Amendment Bill, 2023 that passed in the Lok Sabha on 26th July, 2023 during the Monsoon session. The proposed revisions to the Forest (Conservation) Act, 1980 are worrisome and have significant implications for our environment and biodiversity.
+The Bill's modifications, exempting certain forest lands from protection, could lead to the loss of vital wildlife habitats and ecological services, leaving 15% of Indian forests ready to be exploited.(want to confirm the statistic) Furthermore, the extensive exclusions for forest land construction projects, such as tourism facilities and zoos, may disrupt natural ecosystems and wildlife. Because of the emphasis on compensatory afforestation on forest land, old-growth forests may be replaced with unsustainable monoculture plantations.
+Moreover, allowing construction near international borders may impact local communities and indigenous people, especially in the northeastern states, which are crucial biodiversity hotspots.
+Additionally, the decision to send the Bill to the Joint Committee instead of the Parliamentary Standing Committee for review raises concerns about the democratic process.
+We urge and rely on the members of Rajya Sabha to reconsider these revisions and take into account the feedback and objections submitted by experts, ecologists, and environmentalists.
+As citizens of India, we believe in fulfilling our fundamental duty by prioritising sustainable development, environmental protection, and democratic values to preserve our unique ecosystems and promote the best interest of communities in coexistence with natural resources.`;
+
+      var whatsappLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+      window.open(whatsappLink, "_blank");
+    }
+  </script>
+
+  <!-- Add buttons for each person with the respective phone numbers -->
+  <button onclick="generateMessage('Birendra Prasad Baishya', '', 'Asom Gana Parishad', '919868181789')">WhatsApp Birendra Prasad Baishya</button>
+  <button onclick="generateMessage('Ajit Kumar', '', 'Independent', '919868181044')">WhatsApp Ajit Kumar</button>
+  <button onclick="generateMessage('Rwngwra Narzary', '', 'United People\'s Party(Liberal)', '919868181202')">WhatsApp Rwngwra Narzary</button>
+  <!-- Add buttons for other people as per the data -->
+
+</body>
+
+</html>
