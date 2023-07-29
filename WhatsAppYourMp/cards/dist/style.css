@@ -2,7 +2,6 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: min(2.5vw,2.5vh);
   margin-inline: max(0px, ((100% - 50rem) / 2));
 }
 
