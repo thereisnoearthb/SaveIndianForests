@@ -8,6 +8,10 @@ body {
 
 }
 
+a {
+  color: #0e2044;
+}
+
 .card {
   position: sticky;
   top: 0;
