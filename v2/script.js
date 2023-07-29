@@ -281,19 +281,19 @@ const peopleData = [
 // Function to generate WhatsApp message
 function generateMessage(name, constituency, party, phoneNumber) {
   var message = `Hon’ble MP ${name},
-\n
+
 I'm a concerned citizen writing to express apprehensions about the *Forest (Conservation) Amendment Bill, 2023,* that was passed in the Lok Sabha on *July 26, 2023,* during the Monsoon session. The proposed revisions to the Forest (Conservation) Act, of 1980, are *worrisome* and have significant implications for our environment and biodiversity.
-\n
+
 The Bill's modifications, exempting certain forest lands from protection, could lead to the loss of vital wildlife habitats and ecological services, *leaving 15% of Indian forests ready to be exploited*. Furthermore, the wide-ranging exclusions for building projects on forest land, including zoos and tourist attractions, will disturb wildlife and natural ecosystems to a great and concerning extent. Since there is a wide emphasis on *compensatory afforestation* on forest land, old-growth forests are at risk of being replaced with unsustainable monoculture plantations.
-\n
+
 The bill has sparked concerns over the need for clearing forests for motorways and hydropower projects. This sets a dangerous precedent, diluting the needed environmental due diligence mandated by law as it gives easy leeway to the displacement of indigenous communities, especially in the Northeast.
-\n
+
 Northeastern states, rich in biodiversity and home to many endemic species, fear blanket impacts under the provisions of the Amendment. The bill protects only notified forests, excluding unnotified ones in the North-East, which accounts for *23.75%* of the country's forest cover.
-\n
+
 The decision to send the Amendment Bill to the *Joint Parliamentary Committee* instead of the Parliamentary Standing Committee on Science and Technology, Environment, and Forests for review raises concerns about the democratic process and the efforts taken in the deliberation and discussion of the Bill.
-\n
+
 As citizens of India, we believe in fulfilling our fundamental duty by prioritizing *sustainable development, environmental protection, and democratic values* to preserve our unique ecosystems and promote the best interests of communities in coexistence with natural resources.
-\n
+
 *We urge and rely on the members of the Rajya Sabha to reconsider these revisions and take into account the feedback and objections that have been submitted by experts, ecologists, and environmentalists in the course of the public consultation period.*
 `;
 
