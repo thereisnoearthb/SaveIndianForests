@@ -7,32 +7,12 @@ body {
 
 .card {
   position: sticky;
+  top: 0;
   background: white;
   padding: 1.5rem;
   box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  display: flex;
-  align-items: top;
 }
-
-.card img {
-  max-width: 30%;
-  margin-right: 1rem;
-  border-radius: 4px;
-}
-
-.card-content {
-  flex: 1;
-}
-
-.card h1 {
-  margin: 0;
-}
-
-.card p {
-  margin: 0;
-}
-
 
 .card:nth-child(1) {
   top: 1rem;
