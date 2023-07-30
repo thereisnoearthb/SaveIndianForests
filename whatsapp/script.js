@@ -167,7 +167,7 @@ const peopleData = [
     name: "Abhishek Manu Singhvi",
     constituency: "",
     party: "INC",
-    phoneNumbers: ["919810027705", "919868181959"]
+    phoneNumbers: ["919810027705"]
   },
   {
     name: "Dola Sen",
