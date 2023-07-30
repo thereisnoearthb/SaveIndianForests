@@ -16,7 +16,7 @@ const peopleData = [
     name: "Rwngwra Narzary",
     constituency: "",
     party: "United People's Party(Liberal)",
-    phoneNumbers: ["919868181202", "919868181203"]
+    phoneNumbers: ["919868181202"]
   },
   {
     name: "Dhiraj Prasad Sahu",
