@@ -250,6 +250,105 @@ a {
   top: 46.5rem;
   transform: rotate(23.5deg);
 }
+.card:nth-child(47) {
+  top: 47.5rem;
+  transform: rotate(24deg);
+}
+
+.card:nth-child(48) {
+  top: 48.5rem;
+  transform: rotate(24.5deg);
+}
+
+.card:nth-child(49) {
+  top: 49.5rem;
+  transform: rotate(25deg);
+}
+
+.card:nth-child(50) {
+  top: 50.5rem;
+  transform: rotate(25.5deg);
+}
+
+.card:nth-child(51) {
+  top: 51.5rem;
+  transform: rotate(26deg);
+}
+
+.card:nth-child(52) {
+  top: 52.5rem;
+  transform: rotate(26.5deg);
+}
+
+.card:nth-child(53) {
+  top: 53.5rem;
+  transform: rotate(27deg);
+}
+
+.card:nth-child(54) {
+  top: 54.5rem;
+  transform: rotate(27.5deg);
+}
+
+.card:nth-child(55) {
+  top: 55.5rem;
+  transform: rotate(28deg);
+}
+
+.card:nth-child(56) {
+  top: 56.5rem;
+  transform: rotate(28.5deg);
+}
+
+.card:nth-child(57) {
+  top: 57.5rem;
+  transform: rotate(29deg);
+}
+
+.card:nth-child(58) {
+  top: 58.5rem;
+  transform: rotate(29.5deg);
+}
+
+.card:nth-child(59) {
+  top: 59.5rem;
+  transform: rotate(30deg);
+}
+
+.card:nth-child(60) {
+  top: 60.5rem;
+  transform: rotate(30.5deg);
+}
+
+.card:nth-child(61) {
+  top: 61.5rem;
+  transform: rotate(31deg);
+}
+
+.card:nth-child(62) {
+  top: 62.5rem;
+  transform: rotate(31.5deg);
+}
+
+.card:nth-child(63) {
+  top: 63.5rem;
+  transform: rotate(32deg);
+}
+
+.card:nth-child(64) {
+  top: 64.5rem;
+  transform: rotate(32.5deg);
+}
+
+.card:nth-child(65) {
+  top: 65.5rem;
+  transform: rotate(33deg);
+}
+
+.card:nth-child(66) {
+  top: 66.5rem;
+  transform: rotate(33.5deg);
+}
 
 .whatsapp-icon {
   position: absolute;

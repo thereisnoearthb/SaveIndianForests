@@ -223,7 +223,61 @@ const peopleData = [
     constituency: "",
     party: "Indian National Congress",
     phoneNumbers: ["919999609157"]
-  }
+  },{
+    name: "K.T.S. Tulsi",
+    party: "Indian National Congress",
+    phoneNumbers: ["919999609157"]
+    },
+    {
+    name: "Mohammed Nadihul Haque",
+    party: "AITC",
+    phoneNumbers: ["919013181969"]
+    },
+    {
+    name: "Sukhendu Sekhar Ray",
+    party: "AITC",
+    phoneNumbers: ["919013181188"]
+    },
+    {
+    name: "Santanu Sen",
+    party: "AITC",
+    phoneNumbers: ["919830144496"]
+    },
+    {
+    name: "Ranjan Gogoi",
+    party: "Nom.",
+    phoneNumbers: ["919435706522"]
+    },
+    {
+    name: "Santosh Kumar Joginipally",
+    party: "TRS",
+    phoneNumbers: ["917382222666"]
+    },
+    {
+    name: "K.Keshava Rao",
+    party: "TRS",
+    phoneNumbers: ["919966681039"]
+    },
+    {
+    name: "K.R Suresh Reddy",
+    party: "TRS",
+    phoneNumbers: ["919013181865"]
+    },
+    {
+    name: "P.T Usha",
+    party: "Nom.",
+    phoneNumbers: ["919846102345", "919846114939"]
+    },
+    {
+    name: "Gulam Ali",
+    party: "Nom.",
+    phoneNumbers: ["919419453000", "919419553000"]
+    },
+    {
+    name: "Ilayairaaja",
+    party: "Nom.",
+    phoneNumbers: ["919379274477"]
+    }
 ];
 
 // Function to generate WhatsApp message
