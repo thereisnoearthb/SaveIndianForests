@@ -57,9 +57,9 @@ const peopleData = [
     phoneNumbers: ["919811658584"]
   },
   {
-    name: "Sushil Kumar",
+    name: "Sushil Kumar Modi",
     constituency: "",
-    party: "AAP",
+    party: "BJP",
     phoneNumbers: ["919431017530"]
   },
   {
