@@ -154,7 +154,7 @@ const peopleData = [
     name: "Shanta Chhetri",
     constituency: "",
     party: "AITC",
-    phoneNumbers: ["919434003141", "9197432036898"]
+    phoneNumbers: ["9197432036898"]
   },
  
   {
