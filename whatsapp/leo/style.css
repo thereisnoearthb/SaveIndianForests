@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin-inline: max(0px, ((100% - 50rem) / 2));
+  background-color: #DFD3B9;
+  color: #2E4989;
+
+}
+
+a {
+  color: #0e2044;
+}
+
+.card {
+  position: sticky;
+  top: 0;
+  background: white;
+  padding: 1.5rem;
+  box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.card:nth-child(1) {
+  top: 1.5rem;
+  transform: rotate(1deg);
+}
+
+.card:nth-child(2) {
+  top: 2.5rem;
+  transform: rotate(1.5deg);
+}
+
+.card:nth-child(3) {
+  top: 3.5rem;
+  transform: rotate(2deg);
+}
+
+.card:nth-child(4) {
+  top: 4.5rem;
+  transform: rotate(2.5deg);
+}
+
+.card:nth-child(5) {
+  top: 5.5rem;
+  transform: rotate(3deg);
+}
+
+.card:nth-child(6) {
+  top: 6.5rem;
+  transform: rotate(3.5deg);
+}
+
+.card:nth-child(7) {
+  top: 7.5rem;
+  transform: rotate(4deg);
+}
+
+.card:nth-child(8) {
+  top: 8.5rem;
+  transform: rotate(4.5deg);
+}
+
+.card:nth-child(9) {
+  top: 9.5rem;
+  transform: rotate(5deg);
+}
+
+.card:nth-child(10) {
+  top: 10.5rem;
+  transform: rotate(5.5deg);
+}
+
+.card:nth-child(11) {
+  top: 11.5rem;
+  transform: rotate(6deg);
+}
+
+.card:nth-child(12) {
+  top: 12.5rem;
+  transform: rotate(6.5deg);
+}
+
+.card:nth-child(13) {
+  top: 13.5rem;
+  transform: rotate(7deg);
+}
+
+.card:nth-child(14) {
+  top: 14.5rem;
+  transform: rotate(7.5deg);
+}
+
+.card:nth-child(15) {
+  top: 15.5rem;
+  transform: rotate(8deg);
+}
+
+.card:nth-child(16) {
+  top: 16.5rem;
+  transform: rotate(8.5deg);
+}
+
+.card:nth-child(17) {
+  top: 17.5rem;
+  transform: rotate(9deg);
+}
+
+.card:nth-child(18) {
+  top: 18.5rem;
+  transform: rotate(9.5deg);
+}
+
+.card:nth-child(19) {
+  top: 19.5rem;
+  transform: rotate(10deg);
+}
+
+.card:nth-child(20) {
+  top: 20.5rem;
+  transform: rotate(10.5deg);
+}
+
+.card:nth-child(21) {
+  top: 21.5rem;
+  transform: rotate(11deg);
+}
+
+.card:nth-child(22) {
+  top: 22.5rem;
+  transform: rotate(11.5deg);
+}
+
+.card:nth-child(23) {
+  top: 23.5rem;
+  transform: rotate(12deg);
+}
+
+.card:nth-child(24) {
+  top: 24.5rem;
+  transform: rotate(12.5deg);
+}
+
+.card:nth-child(25) {
+  top: 25.5rem;
+  transform: rotate(13deg);
+}
+
+.card:nth-child(26) {
+  top: 26.5rem;
+  transform: rotate(13.5deg);
+}
+
+.card:nth-child(27) {
+  top: 27.5rem;
+  transform: rotate(14deg);
+}
+
+.card:nth-child(28) {
+  top: 28.5rem;
+  transform: rotate(14.5deg);
+}
+
+.card:nth-child(29) {
+  top: 29.5rem;
+  transform: rotate(15deg);
+}
+
+.card:nth-child(30) {
+  top: 30.5rem;
+  transform: rotate(15.5deg);
+}
+
+.card:nth-child(31) {
+  top: 31.5rem;
+  transform: rotate(16deg);
+}
+
+.card:nth-child(32) {
+  top: 32.5rem;
+  transform: rotate(16.5deg);
+}
+
+.card:nth-child(33) {
+  top: 33.5rem;
+  transform: rotate(17deg);
+}
+
+.card:nth-child(34) {
+  top: 34.5rem;
+  transform: rotate(17.5deg);
+}
+
+.card:nth-child(35) {
+  top: 35.5rem;
+  transform: rotate(18deg);
+}
+
+.card:nth-child(36) {
+  top: 36.5rem;
+  transform: rotate(18.5deg);
+}
+
+.card:nth-child(37) {
+  top: 37.5rem;
+  transform: rotate(19deg);
+}
+
+.card:nth-child(38) {
+  top: 38.5rem;
+  transform: rotate(19.5deg);
+}
+
+.card:nth-child(39) {
+  top: 39.5rem;
+  transform: rotate(20deg);
+}
+
+.card:nth-child(40) {
+  top: 40.5rem;
+  transform: rotate(20.5deg);
+}
+
+.card:nth-child(41) {
+  top: 41.5rem;
+  transform: rotate(21deg);
+}
+
+.card:nth-child(42) {
+  top: 42.5rem;
+  transform: rotate(21.5deg);
+}
+
+.card:nth-child(43) {
+  top: 43.5rem;
+  transform: rotate(22deg);
+}
+
+.card:nth-child(44) {
+  top: 44.5rem;
+  transform: rotate(22.5deg);
+}
+
+.card:nth-child(45) {
+  top: 45.5rem;
+  transform: rotate(23deg);
+}
+
+.card:nth-child(46) {
+  top: 46.5rem;
+  transform: rotate(23.5deg);
+}
+.card:nth-child(47) {
+  top: 47.5rem;
+  transform: rotate(24deg);
+}
+
+.card:nth-child(48) {
+  top: 48.5rem;
+  transform: rotate(24.5deg);
+}
+
+.card:nth-child(49) {
+  top: 49.5rem;
+  transform: rotate(25deg);
+}
+
+.card:nth-child(50) {
+  top: 50.5rem;
+  transform: rotate(25.5deg);
+}
+
+.card:nth-child(51) {
+  top: 51.5rem;
+  transform: rotate(26deg);
+}
+
+.card:nth-child(52) {
+  top: 52.5rem;
+  transform: rotate(26.5deg);
+}
+
+.card:nth-child(53) {
+  top: 53.5rem;
+  transform: rotate(27deg);
+}
+
+.card:nth-child(54) {
+  top: 54.5rem;
+  transform: rotate(27.5deg);
+}
+
+.card:nth-child(55) {
+  top: 55.5rem;
+  transform: rotate(28deg);
+}
+
+.card:nth-child(56) {
+  top: 56.5rem;
+  transform: rotate(28.5deg);
+}
+
+.card:nth-child(57) {
+  top: 57.5rem;
+  transform: rotate(29deg);
+}
+
+.card:nth-child(58) {
+  top: 58.5rem;
+  transform: rotate(29.5deg);
+}
+
+.card:nth-child(59) {
+  top: 59.5rem;
+  transform: rotate(30deg);
+}
+
+.card:nth-child(60) {
+  top: 60.5rem;
+  transform: rotate(30.5deg);
+}
+
+.card:nth-child(61) {
+  top: 61.5rem;
+  transform: rotate(31deg);
+}
+
+.card:nth-child(62) {
+  top: 62.5rem;
+  transform: rotate(31.5deg);
+}
+
+.card:nth-child(63) {
+  top: 63.5rem;
+  transform: rotate(32deg);
+}
+
+.card:nth-child(64) {
+  top: 64.5rem;
+  transform: rotate(32.5deg);
+}
+
+.card:nth-child(65) {
+  top: 65.5rem;
+  transform: rotate(33deg);
+}
+
+.card:nth-child(66) {
+  top: 66.5rem;
+  transform: rotate(33.5deg);
+}
+
+.whatsapp-icon {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  background-color: #25D366;
+  color: white;
+  width: max(5vh, 5vw);
+  height: max(5vh, 5vw);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: max(3vh, 3vw);
+}
