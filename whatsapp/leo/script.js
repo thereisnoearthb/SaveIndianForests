@@ -283,6 +283,7 @@ const peopleData = [
 // Function to generate WhatsApp message
 function generateMessage(name, constituency, party, phoneNumber) {
   var message = `Hon’ble MP ${name},
+
 I'm attaching a letter to members of the Rajya Sabha that has been endorsed by over 1000 citizens and organizations. 
 
 `;
